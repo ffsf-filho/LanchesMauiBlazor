@@ -16,8 +16,14 @@
     }
 
 .top-row {
-    height: 3.5rem;
+    height: 140px;
     background-color: rgba(0,0,0,0.4);
+}
+
+.logo{
+    display: block;
+    height: 85px;
+    margin: auto;
 }
 
 .navbar-brand {
