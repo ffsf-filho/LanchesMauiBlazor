@@ -5,6 +5,8 @@ VisualStudioVersion = 17.10.35013.160
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LanchesMauiBlazor", "LanchesMauiBlazor\LanchesMauiBlazor.csproj", "{5435F24D-634A-416B-A080-CA2020D5F810}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LanchesLibrary", "LanchesLibrary\LanchesLibrary.csproj", "{9F836E9A-6D36-40E9-962C-0002668EE0F3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,6 +19,10 @@ Global
 		{5435F24D-634A-416B-A080-CA2020D5F810}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5435F24D-634A-416B-A080-CA2020D5F810}.Release|Any CPU.Build.0 = Release|Any CPU
 		{5435F24D-634A-416B-A080-CA2020D5F810}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{9F836E9A-6D36-40E9-962C-0002668EE0F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F836E9A-6D36-40E9-962C-0002668EE0F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F836E9A-6D36-40E9-962C-0002668EE0F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F836E9A-6D36-40E9-962C-0002668EE0F3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
