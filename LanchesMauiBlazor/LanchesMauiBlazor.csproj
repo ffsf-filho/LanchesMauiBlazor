@@ -68,4 +68,8 @@
       <Folder Include="wwwroot\images\" />
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\LanchesLibrary\LanchesLibrary.csproj" />
+    </ItemGroup>
+
 </Project>

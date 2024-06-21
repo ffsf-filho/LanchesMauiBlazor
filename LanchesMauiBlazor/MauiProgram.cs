@@ -1,4 +1,6 @@
-﻿using Microsoft.Extensions.Logging;
+﻿using LanchesLibrary.Data;
+using LanchesMauiBlazor.Data;
+using Microsoft.Extensions.Logging;
 
 namespace LanchesMauiBlazor
 {
@@ -20,8 +22,9 @@ namespace LanchesMauiBlazor
 			builder.Services.AddBlazorWebViewDeveloperTools();
 			builder.Logging.AddDebug();
 #endif
+            builder.Services.AddTransient<ILancheService, LancheService>();
 
-			return builder.Build();
+            return builder.Build();
 		}
 	}
 }
