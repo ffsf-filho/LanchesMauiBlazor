@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Cheese Burger",
+    "description": "Pão, Hamburger, mussarela"
+  },
+  {
+    "name": "Cheese Egg",
+    "description": "Pão, Hamburger, mussarela, ovo"
+  },
+  {
+    "name": "Cheese Salada",
+    "description": "Pão, Hamburger, mussarela, alface, tomate"
+  },
+  {
+    "name": "Cheese Salada Bacon",
+    "description": "Pão, Hamburger, mussarela, alface, tomate, bacon"
+  },
+  {
+    "name": "Filé Egg",
+    "description": "Pão, Filé mignon, mussarela, ovo"
+  },
+  {
+    "name": "Lanche vegetariano",
+    "description": "Pão, 2 ovos, mussarela, alface, tomate, batata palha"
+  },
+  {
+    "name": "Hot Dog Americano",
+    "description": "Pão de forma, 2 salsichas, mostarde, batata palha"
+  },
+  {
+    "name": "Peito Bacon",
+    "description": "Pão , 200 g de peito de franco, mussarela e bacon"
+  },
+  {
+    "name": "Peito Simples",
+    "description": "Pão, peito de franco e mussarela"
+  },
+  {
+    "name": "Peito Egg Bacon",
+    "description": "Pão, peito de franco e mussarela, ovo e bacon"
+  }
+]
