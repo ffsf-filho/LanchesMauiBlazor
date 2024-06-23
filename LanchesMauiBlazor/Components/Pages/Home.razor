@@ -3,3 +3,19 @@
 <h1>Lanches</h1>
 
 Bem-Vindo ao Lanches Mac.
+
+<ListaLanches ExibirAlerta="ExibirAlerta"></ListaLanches>
+
+@code {
+    private async Task ExibirAlerta()
+    {
+        if(Connectivity.NetworkAccess != NetworkAccess.Internet)
+        {
+            await Application.Current.MainPage.DisplayAlert("Alerta", "Alerta da aplicação MAUI: SEM INTERNET", "OK");
+        }
+        else
+        {
+            await Application.Current.MainPage.DisplayAlert("Alerta", "Alerta da aplicação MAUI: INTERNET OK!", "OK");
+        }
+    }
+}

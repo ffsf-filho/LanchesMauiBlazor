@@ -2,5 +2,5 @@
 
 public interface ILancheService
 {
-	Task<IEnumerable<Lanche>>? LoadLanchesAsync();
+	Task<List<Lanche>>? LoadLanchesAsync();
 }

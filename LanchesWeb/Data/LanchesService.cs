@@ -6,7 +6,7 @@ public class LanchesService : ILancheService
 {
     private readonly HttpClient _httpClient = new();
 
-    public async Task<IEnumerable<Lanche>>? LoadLanchesAsync()
+    public async Task<List<Lanche>>? LoadLanchesAsync()
     {
         string url = "https://www.macoratti.net/Sistemas/lanches.json";
 
